@@ -136,3 +136,13 @@ body {
 .barra-inferior a:hover .flecha {
     display: block;
 }
+@media (max-width: 768px) {
+    .contenido > h1 {
+        font-size: 1.5rem; 
+    }
+
+    .content > p {
+        font-size: 1rem; 
+    }
+}
+
