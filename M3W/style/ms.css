@@ -1,0 +1,91 @@
+:root {
+    --color-primario: #635bff;
+    --color-secundario: #0a2540;
+    --color-fondo: #f9f9f9;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: var(--color-fondo);
+    color: var(--color-secundario);
+}
+
+.contenedor-principal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.titulo-metodo {
+    font-size: 2.5rem;
+    color: var(--color-primario);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.descripcion-metodo {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.seccion-detalle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.imagen-metodo {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-metodo {
+    flex-grow: 1;
+}
+
+.informacion-metodo h2 {
+    font-size: 1.75rem;
+    color: var(--color-secundario);
+    margin-bottom: 0.5rem;
+}
+
+.informacion-metodo p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.funciones-adicionales {
+    margin-top: 1rem;
+  
+}
+
+
+@media (max-width: 768px) {
+    .seccion-detalle {
+        flex-direction: column;
+    }
+
+    .titulo-metodo {
+        font-size: 2rem;
+    }
+
+    .informacion-metodo h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
