@@ -36,6 +36,7 @@ body {
   line-height: 1.6;
   margin-bottom: 1.5rem;
   text-align: justify;
+  color: #A0FFFF;
 }
 
 .seccion-detalle {
@@ -55,19 +56,22 @@ body {
 
 .informacion-metodo {
   flex-grow: 1;
+  color: #D3D3D3;
 }
 
 .informacion-metodo h2 {
   font-size: 1.75rem;
-  color: var(--color-secundario);
+  color: #A0FFFF;
   margin-bottom: 0.5rem;
 }
 
-.informacion-metodo p {
-  font-size: 1rem;
-  line-height: 1.6;
-  text-align: justify;
+.lista-ventajas {
+  list-style-type: disc; 
+  padding-left: 20px; 
+  color: #FFFF99; 
 }
+
+
 
 .funciones-adicionales {
   margin-top: 1rem;
