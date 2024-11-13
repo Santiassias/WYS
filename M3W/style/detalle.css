@@ -36,7 +36,7 @@ body {
   line-height: 1.6;
   margin-bottom: 1.5rem;
   text-align: justify;
-  color: #A0FFFF;
+  color:black ;
 }
 
 .seccion-detalle {
@@ -56,19 +56,19 @@ body {
 
 .informacion-metodo {
   flex-grow: 1;
-  color: #D3D3D3;
+  color: (--color-primario);
 }
 
 .informacion-metodo h2 {
   font-size: 1.75rem;
-  color: #A0FFFF;
+  color: (--color-primario);
   margin-bottom: 0.5rem;
 }
 
 .lista-ventajas {
   list-style-type: disc; 
   padding-left: 20px; 
-  color: #FFFF99; 
+  color: black; 
 }
 
 
