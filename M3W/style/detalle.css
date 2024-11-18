@@ -246,4 +246,25 @@ input[type="text"]:focus {
   background-color: #4caf50;
   color: white;
 }
+.boton {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: var(#90e0ef);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: var(--color-secundario);
+}
+
 
